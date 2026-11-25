@@ -1,0 +1,6 @@
+:root{--fondo:#faf8f4;--texto:#1f1b16;--suave:#6b6257;--acento:#9a7432}
+@media (prefers-color-scheme:dark){:root{--fondo:#15130f;--texto:#efe9df;--suave:#a89e90;--acento:#e9c478}}
+body{margin:0;background:var(--fondo);color:var(--texto);font:17px/1.6 Georgia,serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px}
+h1{font-weight:normal;font-size:2rem;margin:0 0 .3em}h2{font-weight:normal;margin-top:2em}
+a{color:var(--acento)}.pie{color:var(--suave);font-size:.9rem;margin-top:3em}
